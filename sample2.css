@@ -1,0 +1,85 @@
+
+body{
+	line-height: 130%;
+	background: url("imagen/Imagen1.jpg");
+
+}
+.fotos{
+	width: 90%;
+}
+
+#main {
+	width: 960px;
+	margin: 30px auto;
+	background-color: #0d99eb;
+}
+
+#encabezado {
+	position: relative;
+	width: 100%; height: 220px;
+   background-color: #d2ff4d;
+   background: url("imagen/encabezado1.jpg")
+}
+
+#lateral {
+	width: 228px;
+	float: left;
+	text-align: center;
+	margin: 0px;
+	padding: 50px;
+
+
+}
+
+#contenido {
+	width: 650px;
+	float: left;
+	padding: 20px;
+	background: #ffa366;
+}
+
+#pie {
+	width: 100%;
+	padding: 20px 0px;
+	clear: left;
+	background-color: #0d99eb;
+	color: #ffffff;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #ffffff;
+}
+
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box; 
+}
+
+video{
+	padding-top: 30px;
+	width: 75%;
+	margin: auto;
+	display: block;
+}
